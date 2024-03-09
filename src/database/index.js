@@ -6,8 +6,7 @@ const configOptions = {
 };
 
 const connectToDB = async () => {
-  const connectionUrl =
-    "your-mongodb-url";
+  const connectionUrl = 'mongodb+srv://madhuvarshini30:RUEpEDHoktSyUYTJ@cluster0.9ofur42.mongodb.net/';
 
   mongoose
     .connect(connectionUrl, configOptions)
